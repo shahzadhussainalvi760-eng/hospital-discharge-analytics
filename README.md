@@ -68,5 +68,14 @@ volumes, demographics, length of stay, and discharge timing patterns.
 - Supports staffing and operational planning
 
 ---
+## 📂 Dataset
+
+| Property | Details |
+|----------|---------|
+| **File Name** | HDHI Admission data.csv |
+| **Format** | CSV (Comma Separated Values) |
+| **Source** | Hospital Admission Records |
+
+🔗 **[Download Dataset](HDHI%20Admission%20data.csv)**
 
 ## 🧹 Data Quality Measures
