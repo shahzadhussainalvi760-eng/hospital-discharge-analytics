@@ -40,36 +40,29 @@ volumes, demographics, length of stay, and discharge timing patterns.
 | Tool Used      | SQL Server Management Studio (SSMS) |
 
 ---
+---
 
-## 📊 Key Metrics Analyzed
+## 📊 Query Results & Screenshots
 
 ### 1️⃣ Total Discharges
-- Count of all patients with OUTCOME = 'DISCHARGE'
+![Total Discharges](total_discharges_result.PNG)
 
-### 2️⃣ Average Daily Discharge Rate
-- Average number of patients discharged per calendar day
+---
 
-### 3️⃣ Average Length of Stay (LOS)
-- Mean duration of hospital stay in days
-- Excludes incomplete or erroneous records
+### 2️⃣ Age Group Distribution
+![Age Group Analysis](age_group_result.PNG)
 
-### 4️⃣ Bed-Days Per Discharge
-- Total bed-days consumed per discharged patient
-- Key resource utilization metric
+---
 
-### 5️⃣ Age Group Distribution
-| Age Group | Description  |
-|-----------|-------------|
-| 0–17      | Pediatric   |
-| 18–30     | Young Adult |
-| 31–45     | Adult       |
-| 46–60     | Middle Age  |
-| 61–75     | Senior      |
-| 75+       | Elderly     |
+### 3️⃣ Gender Analysis
+![Gender Analysis](gender_result.PNG)
 
-### 6️⃣ Gender Analysis
-- Male vs Female discharge distribution with percentages
+---
 
+### 4️⃣ Day of Week Discharge Pattern
+![Day of Week Analysis](day_of_week_result.PNG)
+
+---
 ### 7️⃣ Day-of-Week Discharge Patterns
 - Discharge volumes by weekday (Monday through Sunday)
 - Supports staffing and operational planning
